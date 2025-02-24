@@ -25,4 +25,4 @@ jobs:
 
       - name: Push Docker Image
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/aes-app:late
+          docker push ${{ secrets.DOCKER_USERNAME }}/aes-app:latest
